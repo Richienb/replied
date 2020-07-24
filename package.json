@@ -1,6 +1,6 @@
 {
 	"name": "replied",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Log a message to the console and capture the stdin that is replied.",
 	"repository": "https://github.com/Richienb/replied.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
