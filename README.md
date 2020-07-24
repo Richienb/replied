@@ -15,11 +15,11 @@ npm install replied
 ```js
 const replied = require("replied");
 
-const ESC = "\u001B["
+const ESC = "\u001B[";
 
 (async () => {
-	const result = await replied(ESC + '0c') // Primary device attributes
-})()
+	const result = await replied(ESC + '0c'); // Primary device attributes
+})();
 ```
 
 ## API

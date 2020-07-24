@@ -15,10 +15,13 @@ Log a message to the console and capture the stdin that is replied.
 @param message The message to log.
 @example
 ```
-const theModule = require("the-module");
+const replied = require("replied");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+const ESC = "\u001B[";
+
+(async () => {
+	const result = await replied(ESC + '0c'); // Primary device attributes
+})();
 ```
 */
 declare function replied(message: string, options?: replied.Options): Promise<string>
