@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "replied",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "Log a message to the console and capture the stdin that is replied.",
+	"repository": "https://github.com/Richienb/replied.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,7 +17,16 @@
 		"lint": "xo",
 		"test": "xo && ava"
 	},
-	"keywords": [],
+	"keywords": [
+		"stdin",
+		"log",
+		"message",
+		"ansi",
+		"escape",
+		"capture",
+		"stdin",
+		"stdout"
+	],
 	"dependencies": {},
 	"devDependencies": {
 		"ava": "^3.10.1",
