@@ -1,5 +1,8 @@
 # replied [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/replied/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/replied)
 
+> [!WARNING]
+> Deprecated in favour of [`terminal-query`](https://github.com/sindresorhus/terminal-query)
+
 Log a message to the console and capture the stdin that is replied. Useful for ansi escape codes like [Primary Device Attributes](https://terminalguide.namepad.de/seq/csi_sc/).
 
 [![NPM Badge](https://nodei.co/npm/replied.png)](https://npmjs.com/package/replied)
